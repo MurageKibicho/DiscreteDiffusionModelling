@@ -1,4 +1,11 @@
+# Unofficial C Implementation of Discrete Diffusion Modelling by Estimating the Ratios of the Data Distribution 
+We code, in C, the text diffusion model paper that won ICML 2024. These models demonstrate that denoising each token’s probability vector works better than denoising individual tokens.
+
 This code is written to be followed alongside this [LeetArxiv article](https://leetarxiv.substack.com/p/discrete-diffusion-modelling-by-estimating)
+
+![Discrete Diffusion Modelling by Estimating the Ratios of the Data Distribution  Paper Abstract](abstract.png)
+
+Part 1 and Part 2 handle inference. Part 3 deals with backpropagation.
 
 ## Getting Started
 1. Download the [Safetensors file from HuggingFace](https://huggingface.co/muragekibicho/DiscreteDiffusionModel/tree/main/converted_safetensors)
